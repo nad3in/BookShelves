@@ -1,0 +1,21 @@
+.search{
+    margin-top: 3rem;
+    width: 50%;
+    margin-left: 24%;
+    margin-bottom: 6%;
+}
+.books{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(17.1rem, 1fr));
+    grid-column-gap: 1rem;
+}
+.backImage{
+    width: 2.5rem;
+}
+.backButton{
+    text-decoration: none;
+    position: absolute;
+    left: 3%;}
+.backButton:hover{
+    text-decoration: none;
+}

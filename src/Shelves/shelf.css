@@ -1,0 +1,33 @@
+.noBooksInStore{
+    font-size: 1.5rem;
+    margin-top: 7%;    
+}
+.shelfName{
+    margin-top: 3rem;
+    color: #343a40;
+}
+.books{
+    margin-left: 1%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(17.1rem, 1fr));
+    grid-column-gap: 1.5rem;
+    margin-right: 1%;
+}
+.searchButton{
+    text-decoration: none;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+}
+.searchButtonNoBooks{
+    text-decoration: none;
+    position: absolute;
+    right: 3%;
+    top: 24%;
+}
+.searchButton:hover{
+    text-decoration: none;
+}
+.searchImage{
+    width: 3rem;
+}
